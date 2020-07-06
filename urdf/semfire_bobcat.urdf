@@ -16,13 +16,13 @@
      <visual>      
       <origin xyz="0 0 0" rpy="0 0 0" />  
       <geometry>
-        <mesh filename="package://semfire_bobcat/mesh/bobcat_2.dae" scale="1 1 1"/> 
+        <mesh filename="package://semfire_dataset_ntu/mesh/bobcat_2.dae" scale="1 1 1"/> 
       </geometry>
     </visual>
   <collision>
       <origin xyz="0 0 0" rpy="0 0 0" /> 
       <geometry>
-  <mesh filename="package://semfire_bobcat/mesh/bobcat_2.dae" scale="1 1 1"/> <!-- Ask Daryna for the Convex Hull -->
+  <mesh filename="package://semfire_dataset_ntu/mesh/bobcat_2.dae" scale="1 1 1"/> <!-- Ask Daryna for the Convex Hull -->
       </geometry>
     </collision>
   </link>
@@ -31,13 +31,13 @@
      <visual>      
       <origin xyz="0 0.015 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://semfire_bobcat/mesh/arms_blender_2.dae" scale="1 1 1"/> 
+        <mesh filename="package://semfire_dataset_ntu/mesh/arms_blender_2.dae" scale="1 1 1"/> 
       </geometry>
     </visual>
   <collision>
       <origin xyz="0 0.015 0" rpy="0 0 0" />
       <geometry>
-  <mesh filename="package://semfire_bobcat/mesh/arms_blender_2.dae" scale="1 1 1"/>   <!-- Ask Daryna for the Convex Hull -->
+  <mesh filename="package://semfire_dataset_ntu/mesh/arms_blender_2.dae" scale="1 1 1"/>   <!-- Ask Daryna for the Convex Hull -->
       </geometry>
     </collision>
   </link> 
@@ -46,14 +46,14 @@
    <visual>      
       <origin xyz="-0.085 -0.705 -0.17" rpy="1.57079632679 0 1.57079632679" />
       <geometry>
-        <mesh filename="package://semfire_bobcat/mesh/Bumper V2.0.STL" scale="1 1 1"/> 
+        <mesh filename="package://semfire_dataset_ntu/mesh/Bumper V2.0.STL" scale="1 1 1"/> 
       </geometry>
       <material name="black"/> <!--coloring the STL-->
     </visual>
   <collision>
       <origin xyz="-0.085 -0.705 -0.17" rpy="1.57079632679 0 1.57079632679" />
       <geometry>
-  <mesh filename="package://semfire_bobcat/mesh/Bumper V2.0.STL" scale="1 1 1"/>   <!-- Ask Daryna for the Convex Hull -->
+  <mesh filename="package://semfire_dataset_ntu/mesh/Bumper V2.0.STL" scale="1 1 1"/>   <!-- Ask Daryna for the Convex Hull -->
       </geometry>
     </collision>
   </link> 
@@ -62,14 +62,14 @@
    <visual>      
       <origin xyz="-0.045 0.1 -0.09" rpy="0 0 -1.57079632679" />
       <geometry>
-        <mesh filename="package://semfire_bobcat/mesh/back_box.STL" scale="1 1 1"/> 
+        <mesh filename="package://semfire_dataset_ntu/mesh/back_box.STL" scale="1 1 1"/> 
       </geometry>
       <material name="white"/> 
     </visual>
   <collision>
       <origin xyz="-0.045 0.1 -0.09" rpy="0 0 -1.57079632679" />
       <geometry>
-  <mesh filename="package://semfire_bobcat/mesh/back_box.STL" scale="1 1 1"/>    <!-- Ask Daryna for the Convex Hull -->
+  <mesh filename="package://semfire_dataset_ntu/mesh/back_box.STL" scale="1 1 1"/>    <!-- Ask Daryna for the Convex Hull -->
       </geometry>
     </collision>
   </link> 
@@ -78,13 +78,13 @@
    <visual>      
       <origin xyz="0 0 0" rpy="0 0 1.57079632679" />
       <geometry>
-        <mesh filename="package://semfire_bobcat/mesh/sensor_box.dae" scale="1 1 1"/>
+        <mesh filename="package://semfire_dataset_ntu/mesh/sensor_box.dae" scale="1 1 1"/>
       </geometry>
     </visual>
   <collision>
       <origin xyz="0 0 0" rpy="0 0 1.57079632679" />
       <geometry>
-  <mesh filename="package://semfire_bobcat/mesh/sensor_box.dae" scale="1 1 1"/>   <!-- Ask Daryna for the Convex Hull -->
+  <mesh filename="package://semfire_dataset_ntu/mesh/sensor_box.dae" scale="1 1 1"/>   <!-- Ask Daryna for the Convex Hull -->
       </geometry>
     </collision>
   </link>
@@ -93,13 +93,13 @@
      <visual>  
      	<origin xyz="0.0805 -0.001 -0.088" rpy="0.48 0 1.57079632679"/>   <!-- according to Miguel: 27.5-29 degrees (0.48-0.51 rads) in relation to the floor -->
     	<geometry>
-        <mesh filename="package://semfire_bobcat/mesh/base_sensor_kit_white.dae" scale="1 1 1"/>  <!--base_sensor_kit.dae (black)-->
+        <mesh filename="package://semfire_dataset_ntu/mesh/base_sensor_kit_white.dae" scale="1 1 1"/>  <!--base_sensor_kit.dae (black)-->
       </geometry>
     </visual>
   <collision>
       <origin xyz="0.0805 -0.001 -0.088" rpy="0.48 0 1.57079632679"/>
       <geometry>
-	<mesh filename="package://semfire_bobcat/mesh/base_sensor_kit_white.dae" scale="1 1 1"/> <!--base_sensor_kit.dae (black)-->
+	<mesh filename="package://semfire_dataset_ntu/mesh/base_sensor_kit_white.dae" scale="1 1 1"/> <!--base_sensor_kit.dae (black)-->
       </geometry>
     </collision>
   </link> 
@@ -108,13 +108,13 @@
      <visual>  
      	<origin xyz="0 0 0" rpy="0 0.52 0" /> <!--NEW: the front lidar is now tilted 30º (0.52 rad)-->
     	<geometry>
-        <mesh filename="package://semfire_bobcat/mesh/lslidar.dae" scale="1 1 1"/> 
+        <mesh filename="package://semfire_dataset_ntu/mesh/lslidar.dae" scale="1 1 1"/> 
       </geometry>
     </visual>
   <collision>
       <origin xyz="0 0 0" rpy="0 0 0" /> 
       <geometry>
-	<mesh filename="package://semfire_bobcat/mesh/lslidar.dae" scale="1 1 1"/> 
+	<mesh filename="package://semfire_dataset_ntu/mesh/lslidar.dae" scale="1 1 1"/> 
       </geometry>
     </collision>
   </link>  
@@ -123,13 +123,13 @@
      <visual>  
      	<origin xyz="0 0 0" rpy="0 0 0" />
     	<geometry>
-        <mesh filename="package://semfire_bobcat/mesh/lslidar.dae" scale="1 1 1"/> 
+        <mesh filename="package://semfire_dataset_ntu/mesh/lslidar.dae" scale="1 1 1"/> 
       </geometry>
     </visual>
   <collision>
       <origin xyz="0 0 0" rpy="0 0 0" /> 
       <geometry>
-	<mesh filename="package://semfire_bobcat/mesh/lslidar.dae" scale="1 1 1"/> 
+	<mesh filename="package://semfire_dataset_ntu/mesh/lslidar.dae" scale="1 1 1"/> 
       </geometry>
     </collision>
   </link>  

@@ -1,7 +1,7 @@
 
 # semfire_dataset_ntu: pkg for running the dataset with the SEMFIRE instrumented bobcat
 
-### v0.1 (David Portugal)
+### v0.2 (David Portugal)
 ROS pkg for running the SEMFIRE Dataset and visualization.
 
 Tested on Ubuntu 18.04 and ROS Melodic

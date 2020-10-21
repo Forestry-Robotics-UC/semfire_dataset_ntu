@@ -38,7 +38,7 @@
 	    <remap from="layer_num"      to="back_lslidar_layer_num"/>
 	    <remap from="lslidar_packet" to="back_lslidar_packet"/>
 	    <remap from="lslidar_sweep"  to="back_lslidar_sweep"/>
-	    <remap from="lslidar_point_cloud" to="back_lslidar_point_cloud_with_noise"/>
+	    <remap from="lslidar_point_cloud" to="back_lslidar_point_cloud"/>
     </node>
 
     <!-- GET THE FRONT LIDAR DATA POINTCLOUD  -->
@@ -92,8 +92,8 @@
   <node pkg="nodelet" type="nodelet" name="pcl_manager" args="manager" output="screen" />
 
   <node pkg="nodelet" type="nodelet" name="crop_box" args="load pcl/CropBox pcl_manager" output="screen">
-        <remap from="~input" to="back_lslidar_point_cloud_with_noise" />
-        <remap from="~output" to="back_lslidar_point_cloud" />
+        <remap from="~input" to="back_lslidar_point_cloud" />
+        <remap from="~output" to="back_lslidar_point_cloud_filtered" />
         <rosparam>
               min_x: -2.5
               max_x: 0.0

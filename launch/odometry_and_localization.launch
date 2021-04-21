@@ -1,5 +1,6 @@
+<?xml version="1.0"?>
 <!-- 
-  Vinitha's additional TFs (odometry and localization)
+  Additional TFs (odometry and localization)
 -->
 
 <launch>
@@ -15,8 +16,5 @@
     <param name="ignore_child_frame_id" value="false"/>
     <remap from="odom" to="localization" />
   </node>
-
- <!-- TODO: Vinitha: add other nodes... -->
-
 
 </launch>
